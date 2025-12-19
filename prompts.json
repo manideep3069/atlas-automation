@@ -1,0 +1,9 @@
+{
+    "prompts": [
+        "Go to amazon.com and search for nike shoes under 100 dollars",
+        "Open youtube.com and search for JavaScript tutorials for beginners",
+        "Navigate to flipkart.com and find iPhone 15 Pro"
+    ],
+    "waitTimePerPrompt": 45000,
+    "screenshotAfterEachPrompt": true
+}
