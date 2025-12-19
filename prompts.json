@@ -1,6 +1,5 @@
 {
     "prompts": [
-        "Go to amazon.com and search for nike shoes under 100 dollars",
         "Open youtube.com and search for JavaScript tutorials for beginners"
     ],
     "waitTimePerPrompt": 45000,
