@@ -5,24 +5,21 @@ const util = require('util');
 const execPromise = util.promisify(exec);
 
 /**
- * ChatGPT Atlas Smart Browser Mode (V3 - Final)
- * ===============================================
  * SMART UNIVERSAL APPROACH:
- * 
+ 
  * 1. For TOP sites (Amazon, YouTube, Google) → Use direct search URL (best results)
  * 2. For ALL OTHER sites → Use Google site-specific search (100% reliable)
- * 
+ 
  * Example:
  * - "Open amazon.com and search for nike shoes"
  *   → https://www.amazon.com/s?k=nike+shoes (direct)
- * 
+ 
  * - "Open swiggy.com and search for biryani"
  *   → https://www.google.com/search?q=biryani+site:swiggy.com (via Google)
- * 
+ 
  * - "Open randomsite.xyz and find abc"
  *   → https://www.google.com/search?q=abc+site:randomsite.xyz (via Google)
- * 
- * This works for ANY website without needing templates!
+ 
  */
 
 const APP_NAME = 'ChatGPT Atlas';
